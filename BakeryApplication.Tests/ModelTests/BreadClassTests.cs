@@ -22,7 +22,7 @@ namespace BakeryApplication.Tests
         public void GetBreadCountTwo_ReturnBreadAmountTwo_Int()
         {
         BreadClass newBread = new BreadClass (); 
-        Assert.AreEqual(60, newBread.BreadCount(10));  
+        Assert.AreEqual(60, newBread.BreadCount(12));  
         }
         
     }
