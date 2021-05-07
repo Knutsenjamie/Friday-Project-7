@@ -10,7 +10,7 @@ namespace BakeryApplication.Tests
         public void GetAmount_ReturnAmount_()
         {
         BreadClass breadOrder = new BreadClass();
-        Assert.AreEqual(0, breadOrder.BreadTotal(0));
+        Assert.AreEqual(0, breadOrder.BreadPrice(0));
         }
     }
 }
