@@ -30,12 +30,15 @@ https://github.com/Knutsenjamie/Friday-Project-7.git
 
 ### Installation
 1. Open terminal
-2. Input these commands into terminal's command line:
-3. 'cd desktop'
-4. Clone https://github.com/Knutsenjamie/Friday-Project-7.git
-5. Run the command 'code .' in your computer's terminal
-6. Open VS Code or other preffered text editor terminal within the project file
-7. Navigate into root directory folder in terminal 'cd Friday-Project-7.Solution' and  enter command 'dotnet run' to run the program. 
+2. Input these commands into terminal's command line 'cd desktop'
+3. Clone https://github.com/Knutsenjamie/Friday-Project-7.git
+4. Run the command 'code .' in your computer's terminal
+5. Open VS Code or other preffered text editor terminal within the project file
+6. To install and make sure all needed packages are up-to-date, navigate into BakeryApplication.Tests folder from root directory by entering 'cd BakeryApplication.Tests' in terminal.
+    * Type the command 'dotnet restore' to update and restore all needed packages to run application. 
+7. To use MSTesting, Navigate into BakeryApplication.Tests folder from root directory by entering 'cd BakeryApplication.Tests' in terminal
+    * Type the command 'dotnet test' into the command line to see test execution.
+8. Navigate into root directory folder in terminal 'cd Friday-Project-7.Solution' and  enter command 'dotnet run' to run the program. 
 
 ## Licensing
 
