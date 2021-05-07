@@ -8,9 +8,13 @@ namespace BakeryApplication.Models
         {
             BreadAmount = breadAmount;
             return BreadAmount * 5;
+            
         }
-    
+        
     }   
 }
 
-
+// if (BreadAmount >= 2 && % 2 )
+//             {
+//             return BreadAmount / 2;
+//             }
