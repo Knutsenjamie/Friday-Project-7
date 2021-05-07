@@ -12,5 +12,12 @@ namespace BakeryApplication.Tests
         BreadClass newBread = new BreadClass ();
         Assert.AreEqual(typeof(BreadClass), newBread.GetType());
         }
+        [TestMethod]
+        public void Bread_CreateInstanceOfBreadPriceMethod_Int()
+        {
+        BreadClass newBread = new BreadClass ();
+        int result = newBread.BreadPrice;
+        Assert.AreEqual(5, result);
+        }
     }
 }
