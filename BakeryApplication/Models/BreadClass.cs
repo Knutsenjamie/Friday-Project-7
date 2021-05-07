@@ -4,11 +4,12 @@ namespace BakeryApplication.Models
     {
         public int BreadAmount { get; set;}
 
-        public BreadPrice(int breadAmount)
+        public int BreadCount(int breadAmount)
         {
             BreadAmount = breadAmount;
-            return BreadAmount * 5.00;
+            return BreadAmount * 5;
         }
+    
     }   
 }
 
