@@ -10,13 +10,14 @@ namespace BakeryApplication.Tests
         public void GetAmount_ReturnAmount_int()
         {
         BreadClass breadOrder = new BreadClass();
-        Assert.AreEqual(0, breadOrder.BreadPrice(0));
+        Assert.AreEqual(5, breadOrder.BreadPrice(1));
         }
         [TestMethod]
         public void GetAmountSecond_ReturnAmountSecond_int()
         {
         BreadClass breadOrder = new BreadClass();
-        Assert.AreEqual(5, breadOrder.BreadPrice(7));
+        Assert.AreEqual(60, breadOrder.BreadPrice(12));
         }
+        
     }
 }
