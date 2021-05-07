@@ -7,7 +7,7 @@ namespace BakeryApplication.Tests
     public class BreadClassTests
     {
         [TestMethod]
-        public void Bread_InstantiateEmptyBreadMethod_Bread()
+        public void Bread_InstantiateEmptyBreadConstructor_Bread()
         {
         BreadClass newBread = new BreadClass ();
         Assert.AreEqual(typeof(BreadClass), newBread.GetType());
