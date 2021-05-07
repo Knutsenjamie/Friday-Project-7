@@ -28,7 +28,7 @@ namespace BakeryApplication.Tests
         public void GetBreadCountOddNumber_ReturnBreadAmountForOddNumber_Int()
         {
         BreadClass newBread = new BreadClass (); 
-        Assert.AreEqual(60, newBread.BreadCount(13));
+        Assert.AreEqual(65, newBread.BreadCount(13));
         }
 
         
