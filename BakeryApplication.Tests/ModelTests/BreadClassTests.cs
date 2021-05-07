@@ -30,7 +30,6 @@ namespace BakeryApplication.Tests
         BreadClass newBread = new BreadClass (); 
         Assert.AreEqual(65, newBread.BreadCount(13));
         }
-
         
     }
 }
