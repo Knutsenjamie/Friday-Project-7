@@ -8,7 +8,7 @@ namespace BakeryApplication.Models
             BreadAmount = breadAmount;
             return BreadAmount * 5;
         }
-        public int BreadTotalPrice()
+        public int BreadTotal()
         {
             return BreadAmount / 2;
         }
