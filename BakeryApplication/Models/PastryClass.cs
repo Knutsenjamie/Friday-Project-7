@@ -16,7 +16,7 @@ namespace BakeryApplication.Models
             } else if (pastryAmount % 3 == 1) {
                 return (pastryAmount - 1) / 3 * 5 + StartingPrice;
             } else if (pastryAmount % 3 == StartingPrice) {
-                return "hello";
+                return (pastryAmount - StartingPrice) / 3 * 5 + StartingPrice + StartingPrice;
             } else {
                 return 0;
             }
