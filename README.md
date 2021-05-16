@@ -38,7 +38,7 @@ https://github.com/Knutsenjamie/Friday-Project-7.git
     * Type the command 'dotnet restore' to update and restore all needed packages to run application. 
 7. To use MSTesting, Navigate into BakeryApplication.Tests folder from root directory by entering 'cd BakeryApplication.Tests' in terminal
     * Type the command 'dotnet test' into the command line to see test execution.
-8. Navigate into root directory folder in terminal 'cd Friday-Project-7.Solution' and  enter command 'dotnet run' to run the program. 
+8. Navigate into root directory folder in terminal 'cd BakeryApplication.Solution' and  enter command 'dotnet run' to run the program. 
 
 ## Licensing
 
