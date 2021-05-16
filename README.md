@@ -1,4 +1,4 @@
-# _Pierre's Bakery_
+# _Pierre's Bakery Application_
 
 
 ### _Test Driven Development With C#_
