@@ -22,6 +22,11 @@ namespace BakeryApplication.Tests
         {
         Assert.AreEqual(10, PastryClass.pastryPrice(6));
         }
+        [TestMethod]
+        public void GetFinalPastryPrice_ReturnsFinalPastryPrice_int()
+        {
+            Assert.AreEqual(17, PastryClass.pastryPrice(10));
+        }
     }
 
 }
