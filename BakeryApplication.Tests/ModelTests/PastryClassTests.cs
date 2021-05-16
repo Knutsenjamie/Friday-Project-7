@@ -17,6 +17,11 @@ namespace BakeryApplication.Tests
         {
         Assert.AreEqual(2, PastryClass.pastryPrice(1));
         }
+        [TestMethod]
+        public void GetPatstryPriceThreeForFive_ReturnsPastryPriceThreeFor5_int()
+        {
+        Assert.AreEqual(10, PastryClass.pastryPrice(6));
+        }
     }
 
 }

@@ -11,11 +11,12 @@ namespace BakeryApplication.Models
 
             if (PastryAmount == 1) {
                 return pastryAmount * StartingPrice;
+            } else if (pastryAmount % 3 == 0) {
+                return (pastryAmount / 3) * 5;
+            } else {
+                return 0;
             }
         }
     }
 }
 
-//Pastry: Buy 1 for \$2 or 3 for $5.
-//if amount == 1... return price * amount?
-//else if ... something with modulo three? Cant remember syntax to make it work.
