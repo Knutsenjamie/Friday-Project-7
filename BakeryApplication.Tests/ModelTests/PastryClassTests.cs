@@ -19,11 +19,13 @@ namespace BakeryApplication.Tests
         PastryClass newPastry = new PastryClass(pastryAmount);
         Assert.AreEqual(pastryAmount, newPastry.PastryAmount);
         }
-        // [TestMethod]
-        // public void GetPatstryPriceThreeForFive_ReturnsPastryPriceThreeFor5_int()
-        // {
-        // Assert.AreEqual(10, PastryClass.pastryPrice(6));
-        // }
+        [TestMethod]
+        public void GetPatstryPriceEasy_ReturnsPastryPriceEasy_int()
+        {
+        int pastryAmount = 6;
+        PastryClass newPastry = new PastryClass(pastryAmount);
+        Assert.AreEqual(9, newPastry.PastryPrice(6));
+        }
         // [TestMethod]
         // public void GetFinalPastryPrice_ReturnsFinalPastryPrice_int()
         // {
