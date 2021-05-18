@@ -24,7 +24,7 @@ namespace BakeryApplication.Tests
         {
         int pastryAmount = 6;
         PastryClass newPastry = new PastryClass(pastryAmount);
-        Assert.AreEqual(9, newPastry.PastryPrice(6));
+        Assert.AreEqual(10, newPastry.PastryPrice(6));
         }
         // [TestMethod]
         // public void GetFinalPastryPrice_ReturnsFinalPastryPrice_int()
