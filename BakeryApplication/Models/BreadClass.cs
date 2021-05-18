@@ -17,12 +17,12 @@ namespace BakeryApplication.Models
 
         public int CalculatedBaseCost(int breadLoafAmount)
         {
-
+            return 0;
         }
 
         public int CalculatedBonusCost(int breadLoafAmount)
         {
-
+            return 0;
         }
     }   
 }
