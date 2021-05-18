@@ -39,7 +39,7 @@ namespace BakeryApplication.Tests
         {
             int breadLoafAmount = 10;
             BreadClass newBread = new BreadClass(breadLoafAmount);
-            Assert.AreEqual(26, newBread.TotalAmountOfBreadLoaves);
+            Assert.AreEqual(27, newBread.TotalAmountOfBreadLoaves);
         }
     }
 }
