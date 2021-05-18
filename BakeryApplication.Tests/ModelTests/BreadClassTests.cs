@@ -27,6 +27,14 @@ namespace BakeryApplication.Tests
             BreadClass newBread = new BreadClass(breadLoafAmount);
             Assert.AreEqual(10, newBread.CalculatedBaseCost(2));
         }
+        [TestMethod]
+        public void CalculatedBonusCost_ReturnsBonusBreadLoaves_int()
+        {
+            int breadLoafAmount = 10;
+            BreadClass newBread = new BreadClass(breadLoafAmount);
+            Assert.AreEqual(5, newBread.TotalAmountOfBreadLoaves);
+
+        }
         
     }
 }
