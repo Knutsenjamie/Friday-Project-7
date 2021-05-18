@@ -32,7 +32,7 @@ namespace BakeryApplication.Tests
         {
            int breadLoafAmount = 3;
            BreadClass newBread = new BreadClass(breadLoafAmount);
-           Assert.AreEqual(0, newBread.CalculatedBonusCost(breadLoafAmount));
+           Assert.AreEqual(1, newBread.CalculatedBonusCost(breadLoafAmount));
 
         }
         
