@@ -4,10 +4,16 @@ namespace BakeryApplication.Models
     {
         public int PastryAmount { get; set; }
 
-        public static int pastryPrice(int pastryAmount)
+        public PastryClass(int pastryAmount)
         {
-            int PastryAmount = pastryAmount;
+            PastryAmount = pastryAmount;
+        }
+
+        public int PastryPrice(int pastryAmount)
+        {
             int StartingPrice = 2;
+            PastryClass newPastryClass = new PastryClass(pastryAmount);
+            
 
             if (PastryAmount == 1) {
                 return pastryAmount * StartingPrice;
