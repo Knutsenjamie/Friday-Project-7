@@ -37,9 +37,9 @@ namespace BakeryApplication.Tests
         [TestMethod]
         public void  GetTotalAmountOfBreadLoaves_ReturnsTotalAmountOfBreadLoaves_int()
         {
-            int breadLoafAmount = 10;
+            int breadLoafAmount = 28;
             BreadClass newBread = new BreadClass(breadLoafAmount);
-            Assert.AreEqual(27, newBread.TotalAmountOfBreadLoaves);
+            Assert.AreEqual(42, newBread.TotalAmountOfBreadLoaves);
         }
     }
 }
