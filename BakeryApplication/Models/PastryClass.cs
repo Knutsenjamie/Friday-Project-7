@@ -3,18 +3,18 @@ namespace BakeryApplication.Models
     public class PastryClass
     {
         public int PastryAmount { get; set; }
+        public int FinalTotalCost { get; set; }
 
         public PastryClass(int pastryAmount)
         {
             PastryAmount = pastryAmount;
+            FinalTotalCost = PastryPrice(pastryAmount);
         }
 
         public int PastryPrice(int pastryAmount)
         {
             int StartingPrice = 2;
-            PastryClass newPastryClass = new PastryClass(pastryAmount);
-            
-
+        
             if (PastryAmount == 1) {
                 return pastryAmount * StartingPrice;
             } else if (pastryAmount % 3 == 0) {
