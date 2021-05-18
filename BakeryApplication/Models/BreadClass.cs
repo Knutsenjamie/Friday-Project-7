@@ -2,17 +2,15 @@ namespace BakeryApplication.Models
 {
     public class BreadClass
     {
-        public int BreadAmount { get; set; }
+        public int BreadLoafAmount { get; set; }
         public int BreadCost { get; set; }
-        public int BreadPrice { get; set; }
+        public int BonusBreadLoaves { get; set; }
+        public int TotalBreadLoafCost { get; set; }
 
-        public BreadClass(int breadAmount)
+        public BreadClass(int breadLoafAmount)
         {
-            // BreadAmount = breadAmount;
-            // BreadCost = 0;
-            // BreadPrice = 5;
-
-            // return BreadAmount = BreadAmount * BreadPrice;
+            BreadLoafAmount = breadLoafAmount;
+            BreadCost = CalculatedBaseCost(breadLoafAmount);
         }
     }   
 }
