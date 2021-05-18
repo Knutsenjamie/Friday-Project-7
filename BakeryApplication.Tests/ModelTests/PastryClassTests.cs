@@ -31,7 +31,7 @@ namespace BakeryApplication.Tests
         {
             int pastryAmount = 22;
             PastryClass newPastry = new PastryClass(pastryAmount);
-            Assert.AreEqual(0, newPastry.FinalTotalCost);
+            Assert.AreEqual(37, newPastry.FinalTotalCost);
         }
     }
 
