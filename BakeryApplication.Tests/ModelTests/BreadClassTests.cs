@@ -30,9 +30,9 @@ namespace BakeryApplication.Tests
         [TestMethod]
         public void CalculatedBonusCost_ReturnsBonusBreadLoaves_int()
         {
-            int breadLoafAmount = 10;
-            BreadClass newBread = new BreadClass(breadLoafAmount);
-            Assert.AreEqual(5, newBread.TotalAmountOfBreadLoaves);
+           int breadLoafAmount = 3;
+           BreadClass newBread = new BreadClass(breadLoafAmount);
+           Assert.AreEqual(0, newBread.CalculatedBonusCost(breadLoafAmount));
 
         }
         

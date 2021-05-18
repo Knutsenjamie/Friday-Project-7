@@ -29,7 +29,15 @@ namespace BakeryApplication.Models
 
         public int CalculatedBonusCost(int breadLoafAmount)
         {
-            return 0;
+            if(breadLoafAmount < 2)
+            {
+                return 0;
+            }
+            else
+            {
+                int extraLoaves = breadLoafAmount / 2;
+                return extraLoaves;
+            }
         }
     }   
 }
