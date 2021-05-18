@@ -12,12 +12,13 @@ namespace BakeryApplication.Tests
         PastryClass newPastry = new PastryClass (5);
         Assert.AreEqual(typeof(PastryClass), newPastry.GetType());
         }
-        // [TestMethod]
-        // public void GetPastryPrice_ReturnPastryPrice_int()
-        // {
-        // PastryClass newPastry = new PastryClass (3);
-        // Assert.AreEqual();
-        // }
+        [TestMethod]
+        public void GetPastryAmount_ReturnPastryAmount_PastryAmount()
+        {
+        int pastryAmount = 3;
+        PastryClass newPastry = new PastryClass(pastryAmount);
+        Assert.AreEqual(pastryAmount, newPastry.PastryAmount);
+        }
         // [TestMethod]
         // public void GetPatstryPriceThreeForFive_ReturnsPastryPriceThreeFor5_int()
         // {
